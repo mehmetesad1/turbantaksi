@@ -1,0 +1,51 @@
+.header{ 
+    justify-content: start;
+    background-color: yellow;
+    
+    width: 100%; 
+}
+
+.h3-1{
+    font-family: "Funnel Sans", sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.body {
+    background-color: rgb(110, 72, 0);
+}
+
+
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   img {
+     width: 50rem;
+     height: 30rem;
+     padding-left: 10rem;
+     aspect-ratio: 16/9;
+     object-fit: cover;
+   }
+   
+   .text {
+    width: 30rem;
+     font-size: 15px;
+     padding-left: 20rem;
+     color: white;
+   }
+.link { 
+    color: rgb(0, 247, 255);
+
+}
+.map { 
+    margin: 0 auto;
+      display: block;
+      width: 100%;
+}
